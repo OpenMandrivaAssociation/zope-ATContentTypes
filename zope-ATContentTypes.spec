@@ -1,21 +1,21 @@
 %define Product ATContentTypes
 %define product atcontenttypes
 %define name    zope-%{Product}
-%define version 1.2.1
+%define version 1.2.3
 %define release %mkrel 1
 
 %define zope_minver     2.7
 %define zope_home       %{_prefix}/lib/zope
 %define software_home   %{zope_home}/lib/python
 
-Name:		%{name}
-Version:	%{version}
-Release:	%{release}
+Name:       %{name}
+Version:    %{version}
+Release:    %{release}
 Summary:    Reimplementation of CMF's default content types with Archetypes
 License:    GPL
 Group:      System/Servers
 URL:        http://plone.org/products/%{product}
-Source:     http://plone.org/products/%{product}/releases/%{version}/%{Product}-%{version}-3.tgz
+Source:     http://plone.org/products/%{product}/releases/%{version}/%{Product}-%{version}.tgz
 Requires:   zope >= %{zope_minver}
 BuildArch:  noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
