@@ -21,7 +21,8 @@ BuildArch:  noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 
 %description
-This is a very roughe and short list of differences between the old CMF types and the new ATContentTypes types.
+This is a very roughe and short list of differences between the old CMF types
+and the new ATContentTypes types.
 
 * Archetypes: All types are written with Archetypes and have all features
   default Archetypes based types have like:
