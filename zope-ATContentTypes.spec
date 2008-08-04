@@ -2,7 +2,7 @@
 %define product atcontenttypes
 %define name    zope-%{Product}
 %define version 1.2.3
-%define release %mkrel 1
+%define release %mkrel 3
 
 %define zope_minver     2.7
 %define zope_home       %{_prefix}/lib/zope
